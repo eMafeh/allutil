@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/bean/Cate.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/bean/FilePath.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/bean/Goods.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/bean/Price.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/bean/Production.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/bean/ShopCar.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/bean/Te.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/bean/user.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/lab/ContactShip.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/lab/FindClass.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/reflect/ctrip_dalbaiji/DalPlayWithBaiji.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/reflect/ctrip_dalbaiji/SetValueFactory.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/reflect/ctrip_dalbaiji/SwitchWay.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/FindClass.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/test/NodeTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/test/test.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/util/Bean_建议属性.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/util/Configure.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/util/coreutil/BeanSQLBuffer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/util/coreutil/BeanUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/util/coreutil/CoreUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/util/coreutil/SQLBuilder.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/util/coreutil/SQLUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/util/coreutil/SqlPool.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/util/level2_bean/MainBean.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/util/level2_bean/PageBean.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/util/level3_annotation/BeanSearch.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/util/level3_annotation/FormGetBean.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/util/level3_annotation/HTMLJSON.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/util/level3_annotation/分析.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/util/threadutil/LoopThread.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/util/说明.txt" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

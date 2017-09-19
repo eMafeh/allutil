@@ -1,0 +1,63 @@
+sqlutil
+
+提供了基础的crud操作
+提供了连接池
+
+formgetbeanutil
+提供了一个方法,将request和需要的对象类型传入
+传出封装好的对象
+不需要任何成员变量,只需要传入request
+(功能非常弱小,但还是建议取代struts使用)
+
+beanutil
+
+
+提供了基本的对象级别的数据库操作
+提供了一级对象缓存池
+
+beanutilbuffer  !
+重点!极端封装后的福利!!!
+
+建议实现该接口,主要使用该接口内的defalut方法!!!
+不需要任何参数传递!!!
+对象可以直接操作数据库!!!
+一键实现所有基本的数据库操作!!!
+(全查询,id查询,条件查询,增加删除修改,字段自动补全,统统不需要任何参数传递!!!)
+
+
+提供了1:工具对象的单例工厂
+2:提供了异常简单的事务操作(也可以在sqlutil里操作事务方法,很复杂)
+
+level2(可能不那么容易理解如何使用)
+提供了更加方便的多表联系
+开启分页功能
+通过实现4个接口中的某一个,获得超棒的一步实现多表查询的体验
+
+level3(一般人应该无法理解如何使用)
+开启了注解方式
+两个注解分别提供了
+根据对象,可选的精确的js生成(暂时为直接返回html table对象)
+精确的多表联合模糊查询,返回所有符合条件的对象(效果强大!)
+
+
+关于前台访问地址,有如下的方式
+@WebServlet({ "/Action", "/Action/*" })//假装自己是Action
+public class ActionServlet extends HttpServlet{
+...dopost(..){
+String order = req.getRequestURI();
+		if ((project + "/Action/Code").equals(order))
+			doCode(req, resp);
+		if ((project + "/Action/getbean").equals(order))
+			dogetBean(req, resp);
+		if ((project + "/Action/beanupdate").equals(order))
+			doBeanUpdate(req, resp);
+		if ((project + "/Action/delete").equals(order))
+			doDel(req, resp);
+		if ((project + "/Action/shopcar").equals(order))
+			doShopCar(req, resp);
+		if ((project + "/Action/buycarnum").equals(order))
+			doBuyCarNum(req, resp);
+		if ((project + "/Action/deletecar").equals(order))
+			doDeleteCar(req, resp);
+		if ((project + "/Action/balance").equals(order))
+			doBalance(req, resp);
